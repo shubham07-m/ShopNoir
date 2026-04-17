@@ -1,0 +1,23 @@
+[
+    {
+        "order_id": "ORD-EXAMPLE123",
+        "user_id": 1,
+        "user_name": "Example User",
+        "user_email": "user@example.com",
+        "items": [
+            {
+                "name": "Classic Leather Bag",
+                "category": "Accessories",
+                "price": 4999,
+                "qty": 1,
+                "line_total": 4999,
+                "image": "images/products/bag.jpg"
+            }
+        ],
+        "subtotal": 4999,
+        "shipping": 0,
+        "total": 4999,
+        "status": "Confirmed",
+        "date": "2026-04-17 12:00:00"
+    }
+]

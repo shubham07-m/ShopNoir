@@ -1,0 +1,150 @@
+[
+    {
+        "name": "Classic Leather Bag",
+        "category": "Accessories",
+        "price": 15999,
+        "old_price": 20999,
+        "image": "images\/products\/bag.png",
+        "badge": "Sale",
+        "description": "A timeless masterpiece crafted from premium full-grain leather. This bag features a spacious main compartment, dedicated laptop sleeve, and hand-finished stitching for durability and style.",
+        "photos": [
+            "images\/products\/bag.png",
+            "images\/products\/bag.png"
+        ],
+        "reviews": [
+            {
+                "user": "Arjun S.",
+                "rating": 5,
+                "comment": "Exceptional quality. The leather feels very premium.",
+                "date": "2026-02-15"
+            },
+            {
+                "user": "Priya K.",
+                "rating": 4,
+                "comment": "Beautiful design, though a bit heavier than expected.",
+                "date": "2026-03-01"
+            }
+        ]
+    },
+    {
+        "name": "Precision Timepiece",
+        "category": "Watches",
+        "price": 29999,
+        "old_price": null,
+        "image": "images\/products\/watch.png",
+        "badge": "New",
+        "description": "Engineered for accuracy and elegance. This sapphire-crystal timepiece features a Japanese quartz movement, stainless steel casing, and water resistance up to 50 meters.",
+        "photos": [
+            "images\/products\/watch.png",
+            "images\/products\/watch.png"
+        ],
+        "reviews": [
+            {
+                "user": "Vikram R.",
+                "rating": 5,
+                "comment": "Stunning watch. Gets compliments every time I wear it.",
+                "date": "2026-03-10"
+            }
+        ]
+    },
+    {
+        "name": "Urban Sneakers",
+        "category": "Footwear",
+        "price": 10999,
+        "old_price": 13499,
+        "image": "images\/products\/sneakers.png",
+        "badge": "",
+        "description": "Versatile sneakers designed for the modern explorer. Featuring breathable mesh upper, responsive cushioning, and a high-traction rubber outsole.",
+        "photos": [
+            "images\/products\/sneakers.png",
+            "images\/products\/sneakers.png"
+        ],
+        "reviews": [
+            {
+                "user": "Rahul M.",
+                "rating": 4,
+                "comment": "Very comfortable for daily wear.",
+                "date": "2026-01-20"
+            }
+        ]
+    },
+    {
+        "name": "Noir Sunglasses",
+        "category": "Eyewear",
+        "price": 7999,
+        "old_price": null,
+        "image": "images\/products\/sunglasses.png",
+        "badge": "Trending",
+        "description": "Stay sharp with these polarized matte-black sunglasses. Offering 100% UV protection and a lightweight acetate frame for all-day comfort.",
+        "photos": [
+            "images\/products\/sunglasses.png"
+        ],
+        "reviews": []
+    },
+    {
+        "name": "Stealth Bomber Jacket",
+        "category": "Outerwear",
+        "price": 22999,
+        "old_price": 26999,
+        "image": "images\/products\/jacket.png",
+        "badge": "Sale",
+        "description": "A modern take on a classic silhouette. Water-resistant nylon shell with a quilted lining to keep you warm and dry without the bulk.",
+        "photos": [
+            "images\/products\/jacket.png"
+        ],
+        "reviews": [
+            {
+                "user": "Suresh V.",
+                "rating": 5,
+                "comment": "Top notch quality. Perfect fit.",
+                "date": "2026-02-28"
+            }
+        ]
+    },
+    {
+        "name": "Essence Eau de Parfum",
+        "category": "Fragrance",
+        "price": 9999,
+        "old_price": null,
+        "image": "images\/products\/perfume.png",
+        "badge": "New",
+        "description": "A sophisticated blend of sandalwood, bergamot, and spiced vanilla. A fragrance that lingers and makes a statement.",
+        "photos": [
+            "images\/products\/perfume.png"
+        ],
+        "reviews": []
+    },
+    {
+        "name": "Studio Pro Headphones",
+        "category": "Audio",
+        "price": 16999,
+        "old_price": 21999,
+        "image": "images\/products\/headphones.png",
+        "badge": "",
+        "description": "Immersive sound with active noise cancellation. High-fidelity audio drivers and plush memory foam ear cups for ultimate studio-grade listening.",
+        "photos": [
+            "images\/products\/headphones.png"
+        ],
+        "reviews": [
+            {
+                "user": "Ananya G.",
+                "rating": 5,
+                "comment": "Best noise cancellation in this price range.",
+                "date": "2026-03-05"
+            }
+        ]
+    },
+    {
+        "name": "Slim Card Wallet",
+        "category": "Accessories",
+        "price": 4999,
+        "old_price": null,
+        "image": "images\/products\/wallet.png",
+        "badge": "Best Seller",
+        "description": "Minimalist design for maximum efficiency. RFID-blocking technology and space for up to 8 cards and folded bills.",
+        "photos": [
+            "images\/products\/wallet.png"
+        ],
+        "reviews": []
+    }
+]

@@ -1,0 +1,9 @@
+# Database configurations containing credentials
+config/database.php
+
+# User order data containing PII (emails, names, order details)
+data/orders.json
+
+# Typical ignores for macOS/Windows
+.DS_Store
+Thumbs.db
