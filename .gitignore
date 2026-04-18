@@ -7,3 +7,6 @@ data/orders.json
 # Typical ignores for macOS/Windows
 .DS_Store
 Thumbs.db
+*.rar
+*.zip
+.htaccess

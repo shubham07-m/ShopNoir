@@ -298,9 +298,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $is_logged_in) {
             </div>
         </div>
     <?php endif; ?>
+
+    <?php if ($is_logged_in && !$success): ?>
+    <!-- Mobile Sticky Summary -->
+    <div class="mobile-sticky-summary" id="mobile-sticky-summary">
+        <span>Order Total</span>
+        <span>&#8377;<?php echo number_format($grand_total); ?></span>
+    </div>
+    <?php endif; ?>
 </main>
 
 <script>
+    // Scroll logic for mobile sticky summary
+    window.addEventListener('scroll', function() {
+        if (window.innerWidth <= 900) {
+            const summaryHero = document.querySelector('.checkout-summary');
+            const stickySummary = document.getElementById('mobile-sticky-summary');
+            const formSection = document.querySelector('.checkout-form-section');
+            
+            if (!summaryHero || !stickySummary || !formSection) return;
+            
+            const heroRect = summaryHero.getBoundingClientRect();
+            const formRect = formSection.getBoundingClientRect();
+            
+            // Show pill when summary scrolls past navbar
+            if (heroRect.bottom < 85 && formRect.bottom > 100) {
+                stickySummary.classList.add('is-visible');
+            } else {
+                stickySummary.classList.remove('is-visible');
+            }
+        }
+    });
     document.getElementById('card')?.addEventListener('input', function (e) {
         let value = e.target.value.replace(/\D/g, '').substring(0,16);
         value = value != '' ? value.match(/.{1,4}/g).join(' ') : '';
