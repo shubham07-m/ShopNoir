@@ -1,7 +1,4 @@
 <?php
-// Example Database Configuration
-// Rename or copy this file to 'database.php' and insert your real database credentials.
-// 'database.php' is ignored by Git to prevent leaking credentials.
 
 $host     = 'localhost';
 $dbname   = 'your_database_name_here';
